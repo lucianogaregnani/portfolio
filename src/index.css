@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+    --first-color: #E24854;
+    --second-color: #0DB6A8;
+    --third-color: #bc3d47;
+    --white-color: #fff;
+    --gray-color: #e6e6e6;
+    --black-color: #000;
+    --link-color: #fff;
+    --title-color: #fff;
+    --text-color: #fff;
+    --second-text-color: #222;
+    --font: "Roboto Slab", sans-serif;
+    --max-width: 1280px;
+    --max-height: 720px;
+    --header-height: 4rem;
+}
+
+.body {
+    max-width: var(--max-width);
+}
