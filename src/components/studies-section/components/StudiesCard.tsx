@@ -24,7 +24,7 @@ function StudiesCard({
       <img
         src={institutionImage}
         alt={altImage}
-        className="rounded-2xl border-[1px] w-40 md:w-auto"
+        className="rounded-2xl border-[1px] w-40 md:w-[11rem]"
       />
       <div className="text-center md:text-left ml-3 flex flex-col gap-3 ">
         <h3 className="text-2xl md:text-3xl font-semibold">{title}</h3>
