@@ -7,3 +7,9 @@ html {
   --tw-bg-opacity: 1;
   background-color: rgb(250 250 250 / var(--tw-bg-opacity));
 }
+
+@layer components {
+  .shadow-button {
+    @apply shadow-[4px_4px_0px_rgb(50,50,50)] active:shadow-[2px_2px_0px_rgb(50,50,50)] dark:shadow-[4px_4px_0px_rgb(200,200,200)]  
+  }
+}
