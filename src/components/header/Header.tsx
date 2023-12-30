@@ -43,8 +43,8 @@ function Header({ changeTheme, itsDarkTheme }:{ changeTheme: ()  => void, itsDar
   };
 
   return (
-    <header className="dark:text-white sticky z-40 top-0 w-full flex items-center justify-between py-5 text-2xl font-oswald backdrop-blur-sm">
-      <p className="pl-3 text-4xl text-neutral-900 dark:text-slate-200 font-semibold xl:pl-0">
+    <header className="px-6 bg-white shadow-sm dark:bg-slate-800 dark:text-white sticky top-0 z-40 w-full flex items-center justify-between py-5 text-2xl font-oswald">
+      <p className="text-4xl text-neutral-900 dark:text-slate-200 font-semibold">
         lg<span className="text-purple-600">.</span>
       </p>
       <div className="gap-5 md:items-center hidden md:flex">

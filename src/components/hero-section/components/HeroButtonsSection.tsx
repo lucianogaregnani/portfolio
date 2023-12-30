@@ -1,9 +1,9 @@
 import { FaLinkedinIn } from "react-icons/fa";
-import Icon from "../../icons/Icon";
+import Icon from "../../../icons/Icon";
 import { PiGithubLogoFill } from "react-icons/pi";
 import { MdOutlineFileDownload } from "react-icons/md";
-import Button from "../Buttons/Button";
-import cv from "./assets/CV_Luciano_Garegnani.pdf"
+import Button from "../../Buttons/Button";
+import cv from "../assets/CV_Luciano_Garegnani.pdf"
 
 const icons = [
   {

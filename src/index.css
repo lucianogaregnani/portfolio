@@ -10,6 +10,14 @@ html {
 
 @layer components {
   .shadow-button {
-    @apply shadow-[4px_4px_0px_rgb(50,50,50)] active:shadow-[2px_2px_0px_rgb(50,50,50)] dark:shadow-[4px_4px_0px_rgb(200,200,200)]  
+    @apply shadow-[4px_4px_0px_rgb(50,50,50)] active:shadow-[2px_2px_0px_rgb(50,50,50)] dark:shadow-[4px_4px_0px_rgb(100,100,100)]  
+  }
+
+  .text-purple-gradient {
+    @apply text-transparent bg-clip-text inline-block bg-gradient-to-r from-purple-600 to-purple-400
+  }
+
+  .shadow-card {
+    @apply border-2 shadow-[4px_4px_0px_rgb(50,50,50)] border-black dark:border-yellow-500 dark:shadow-[4px_4px_0px_rgb(234,179,8)]
   }
 }

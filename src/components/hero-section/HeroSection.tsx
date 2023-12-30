@@ -1,13 +1,13 @@
 import HeroImage from "./styled-components/HeroImage";
-import HeroButtonsSections from "./HeroButtonsSection";
+import HeroButtonsSections from "./components/HeroButtonsSection";
 
 function HeroSection() {
   return (
-    <section className="p-5 text-4xl font-semibold flex flex-col justify-center mx-auto md:text-5xl md:flex-row items-center md:max-w-[65rem]">
-      <div className="flex flex-col gap-4 items-center text-center md:text-left md:items-start">
+    <section className="dark:bg-slate-800 px-0 md:mt-0 md:px-32  p-5 text-4xl font-semibold flex flex-col md:text-5xl md:flex-row items-center justify-center">
+      <div className="max-w-md flex flex-col gap-4 items-center text-center md:text-left md:items-start">
         <h1 className="flex flex-col">
           Hola! Soy Luciano Garegnani.
-          <span className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-purple-600 to-purple-400">
+          <span className="text-purple-gradient">
             Frontend Developer
           </span>
         </h1>
