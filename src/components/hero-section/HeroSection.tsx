@@ -7,13 +7,10 @@ function HeroSection() {
       <div className="max-w-md flex flex-col gap-4 items-center text-center md:text-left md:items-start">
         <h1 className="flex flex-col">
           Hola! Soy Luciano Garegnani.
-          <span className="text-purple-gradient">
-            Frontend Developer
-          </span>
+          <span className="text-purple-gradient">Frontend Developer</span>
         </h1>
         <p className="text-2xl font-light md:3xl">
-          Lorem ipsum dolor sit amet consectetur. Ligula nunc non commodo
-          scelerisque gravida.
+          Soy un apasionado por el desarrollo web, cada día aprendiendo más.
         </p>
         <HeroButtonsSections />
       </div>

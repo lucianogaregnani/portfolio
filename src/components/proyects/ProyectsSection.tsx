@@ -16,7 +16,7 @@ const proyects = [
 function ProyectsSection() {
   return (
     <section className="dark:bg-slate-800 w-full flex flex-col items-center gap-7">
-      <h2 className="text-4xl font-medium pt-5 md:text-5xl mb-4">Proyectos</h2>
+      <h2 className="text-4xl font-medium pt-5 md:text-5xl">Proyectos</h2>
       {proyects.map((proyect) => {
         const { title, content, image, technologies, liveLink, codeLink } = proyect;
         return (
