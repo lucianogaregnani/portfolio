@@ -17,7 +17,12 @@ html {
     @apply text-transparent bg-clip-text inline-block bg-gradient-to-r from-purple-600 to-purple-400
   }
 
+  .bg-proyect-card {
+    @apply bg-gray-200 dark:bg-slate-700
+  }
+
   .shadow-card {
     @apply border-2 shadow-[4px_4px_0px_rgb(50,50,50)] border-black dark:border-yellow-500 dark:shadow-[4px_4px_0px_rgb(234,179,8)]
   }
+
 }
