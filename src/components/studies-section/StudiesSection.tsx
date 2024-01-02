@@ -1,17 +1,5 @@
 import StudiesCard from "./components/StudiesCard";
-import unahur from "./assets/unahur.png"
-
-const studies = [
-  {
-    title: "Tecnico en programación",
-    institutionImage: unahur,
-    altImage: "logo unahur",
-    date: "2021 - 2023",
-    description: "Por ahora no hay ninguna descripcion",
-    moreInfo:
-      "https://unahur.edu.ar/tecnicatura-universitaria-en-programacion/",
-  },
-];
+import { studies } from "./studies";
 
 function StudiesSection() {
   return (
