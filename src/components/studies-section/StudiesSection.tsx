@@ -27,6 +27,7 @@ function StudiesSection() {
           moreInfo,
         }) => (
           <StudiesCard
+            key={description}
             title={title}
             institutionImage={institutionImage}
             altImage={altImage}

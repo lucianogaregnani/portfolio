@@ -21,6 +21,7 @@ function ProyectsSection() {
         const { title, content, image, technologies, liveLink, codeLink } = proyect;
         return (
           <ProyectCard
+            key={title}
             title={title}
             content={content}
             image={image}

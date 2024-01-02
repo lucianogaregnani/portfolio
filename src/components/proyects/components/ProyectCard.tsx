@@ -37,8 +37,10 @@ function ProyectCard({
           <span className="text-purple-600 font-semibold">.</span>
         </p>
         <div className="text-sky-400 flex gap-2">
-          {technologies.map((TechnologieIcon) => (
-            TechnologieIcon
+          {technologies.map((TechnologieIcon, index) => (
+            <div key={index}>
+                {TechnologieIcon}
+            </div>
           ))}
         </div>
         <div className="flex gap-4">
