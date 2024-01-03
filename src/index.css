@@ -25,4 +25,8 @@ html {
     @apply border-2 shadow-[4px_4px_0px_rgb(50,50,50)] border-black dark:border-yellow-500 dark:shadow-[4px_4px_0px_rgb(234,179,8)]
   }
 
+  .shadow-experience-card {
+    @apply border-2 shadow-[4px_4px_0px_rgb(50,50,50)] border-black dark:border-slate-500 dark:shadow-[4px_4px_0px_rgb(100,116,139)] hover:dark:border-slate-400 hover:dark:shadow-[4px_4px_0px_rgb(148,163,184)]
+  }
+
 }

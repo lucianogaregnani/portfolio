@@ -3,28 +3,10 @@ import LinkHeader from "./components/LinkHeader";
 import { MdClose } from "react-icons/md";
 import { RxHamburgerMenu } from "react-icons/rx";
 import ChangeThemeButton from "./components/ChangeThemeButton";
-
-const links = [
-  {
-    tag: "Sobre mi",
-    href: "#",
-  },
-  {
-    tag: "Proyectos",
-    href: "#",
-  },
-  {
-    tag: "Estudios",
-    href: "#",
-  },
-  {
-    tag: "Contacto",
-    href: "#",
-  },
-];
+import { links } from "./links";
 
 function Header({ changeTheme, itsDarkTheme }:{ changeTheme: ()  => void, itsDarkTheme: string}) {
-  const [selectedItem, setSelectedItem] = useState("Sobre mi");
+  const [selectedItem, setSelectedItem] = useState("Inicio");
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = (item: string) => {
@@ -32,12 +14,12 @@ function Header({ changeTheme, itsDarkTheme }:{ changeTheme: ()  => void, itsDar
   };
 
   return (
-    <header className="px-5 md:px-[15rem] bg-white shadow-sm dark:bg-slate-800 dark:text-white sticky top-0 z-40 w-full flex items-center justify-between py-5 text-2xl font-oswald">
+    <header className="px-5 md:px-[7rem] bg-white shadow-sm dark:bg-slate-800 dark:text-white fixed top-0 z-40 w-full flex items-center justify-between py-5 text-2xl font-oswald">
       <p className="text-4xl text-neutral-900 dark:text-slate-200 font-semibold">
         lg<span className="text-purple-600">.</span>
       </p>
       <nav className="gap-5 md:items-center hidden md:flex">
-        <div className="flex gap-6 text-lg">
+        <div className="flex gap-6 text-lg items-center">
           {links.map((link) => (
             <LinkHeader
               key={link.tag}

@@ -3,6 +3,7 @@ import Header from "./components/header/Header";
 import HeroSection from "./components/hero-section/HeroSection";
 import StudiesSection from "./components/studies-section/StudiesSection";
 import ProyectsSection from "./components/proyects/ProyectsSection";
+import ExperienceSection from "./components/experience-section/ExperienceSection";
 
 function App() {
   const [darkTheme, setDarkTheme] = useState("");
@@ -14,8 +15,9 @@ function App() {
   return (
     <div className={`${darkTheme && "dark"}`}>
         <Header changeTheme={handleChangeTheme} itsDarkTheme={darkTheme} />
-        <main className="text-slate-700 dark:text-slate-200">
+        <main className="text-slate-700 dark:text-slate-100">
           <HeroSection />
+          <ExperienceSection />
           <StudiesSection />
           <ProyectsSection />
         </main>

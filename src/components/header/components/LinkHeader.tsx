@@ -7,7 +7,7 @@ interface LinkHeaderProps {
 
 function LinkHeader({ href, tag, isSelected, onClick }:LinkHeaderProps) {
     return (
-        <a href={href} onClick={() => onClick(tag)} className={`${isSelected && "border-b-4 border-purple-600"} ${!isSelected && "hover:border-b-4 hover:border-purple-300"}`}>{tag}</a>
+        <a href={href} onClick={() => onClick(tag)} className={`underline-offset-[5px] decoration-[0.3rem] ${isSelected && "underline decoration-purple-600"} ${!isSelected && "hover:underline hover:decoration-purple-300"}`}>{tag}</a>
     );
 }
 
