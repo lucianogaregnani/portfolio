@@ -37,8 +37,6 @@ function StudiesCard({
           <a href={moreInfo} target="_blank" className="flex justify-center md:justify-start">
             <Button
               placeholder="Más info"
-              bgColor="dark:bg-yellow-500 bg-orange-500"
-              bgHover="dark:hover:bg-yellow-600 hover:bg-orange-600"
             >
               <IoInformationCircle />
             </Button>

@@ -1,6 +1,6 @@
 import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiNextdotjs, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiHtml5, SiNextdotjs, SiTailwindcss, SiTypescript } from "react-icons/si";
 
 export function ReactIcon() {
   return (
@@ -28,8 +28,8 @@ export function TailwindIcon() {
 
 export function TypeScriptIcon() {
   return (
-    <div className="text-yellow-300">
-      <SiTypescript size="30" />
+    <div className="text-sky-500">
+      <SiTypescript size="25" />
     </div>
   );
 }
@@ -38,6 +38,14 @@ export function NextJSIcon() {
   return (
     <div className="text-yellow-300">
       <SiNextdotjs size="30" />
+    </div>
+  );
+}
+
+export function HTMLIcon() {
+  return (
+    <div className="text-orange-500">
+      <SiHtml5 size="30" />
     </div>
   );
 }

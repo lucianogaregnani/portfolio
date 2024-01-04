@@ -31,10 +31,9 @@ function ProyectCard({
         </div>
       </a>
       <div className="flex flex-col items-center text-center md:text-left md:items-start gap-2 max-w-sm">
-        <h4 className="text-5xl font-semibold">{title}</h4>
+        <h4 className="text-4xl font-semibold">{title}</h4>
         <p className="text-gray-700 dark:text-slate-100 text-xl font-light">
           {content}
-          <span className="text-purple-600 font-semibold">.</span>
         </p>
         <div className="text-sky-400 flex gap-2">
           {technologies.map((TechnologieIcon, index) => (
