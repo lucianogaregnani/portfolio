@@ -22,7 +22,7 @@ const experiences = [
 
 function ExperienceSection() {
   return (
-    <section className="dark:bg-slate-600 w-full text-center pb-5 bg-slate-100 px-10">
+    <section id="experience-section" className="dark:bg-slate-600 w-full text-center pb-5 bg-slate-100 px-10">
       <h2 className="text-4xl font-medium pt-5 md:text-5xl mb-6">
         Experiencia extracurricular
       </h2>
@@ -30,6 +30,7 @@ function ExperienceSection() {
         {experiences.map(
           ({ title, position, date, description, technologies, href }) => (
             <ExperienceCard
+              key={title}
               title={title}
               position={position}
               date={date}

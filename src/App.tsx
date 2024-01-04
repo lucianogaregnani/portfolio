@@ -4,7 +4,7 @@ import HeroSection from "./components/hero-section/HeroSection";
 import StudiesSection from "./components/studies-section/StudiesSection";
 import ProyectsSection from "./components/proyects/ProyectsSection";
 import ExperienceSection from "./components/experience-section/ExperienceSection";
-import Contacto from "./components/contacto/Contacto";
+import Contacto from "./components/contact/Contacto";
 
 function App() {
   const [darkTheme, setDarkTheme] = useState("");

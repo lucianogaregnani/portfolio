@@ -1,22 +1,22 @@
 export const links = [
     {
       tag: "Inicio",
-      href: "#",
+      href: "#hero-section",
     },
     {
       tag: "Experiencia",
-      href: "#"
+      href: "#experience-section"
     },
     {
       tag: "Estudios",
-      href: "#",
+      href: "#studies-section",
     },
     {
       tag: "Proyectos",
-      href: "#",
+      href: "#proyects-section",
     },
     {
       tag: "Contacto",
-      href: "#",
+      href: "#contact-section",
     },
   ];

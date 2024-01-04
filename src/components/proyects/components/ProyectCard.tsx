@@ -20,7 +20,7 @@ function ProyectCard({
   codeLink,
 }: ProyectCardProps) {
   return (
-    <article className="flex flex-col md:flex-row justify-center items-center gap-3 group px-5">
+    <article className="flex flex-col md:flex-row justify-center items-center gap-3 group md:px-5">
       <a href={liveLink} target="_blank">
         <div className="rounded-xl overflow-hidden bg-proyect-card h-[14rem] w-[22rem]">
           <img
@@ -47,7 +47,7 @@ function ProyectCard({
             <Button
               placeholder="Código"
               bgColor="bg-orange-500 dark:bg-yellow-500"
-              bgHover="hover:bg-orange-600 dark:hover:bg-yellow-600"
+              bgHover="hover:bg-orange-400 dark:hover:bg-yellow-600"
             >
               <LuFileCode2 />
             </Button>
@@ -55,8 +55,6 @@ function ProyectCard({
           <a href={codeLink} target="_blank">
             <Button
               placeholder="Live"
-              bgColor="bg-purple-600"
-              bgHover="hover:bg-purple-700"
             >
               <MdLiveTv />
             </Button>
