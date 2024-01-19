@@ -43,7 +43,7 @@ function ProyectCard({
           ))}
         </div>
         <div className="flex gap-4">
-          <a href={liveLink} target="_blank">
+          <a href={codeLink} target="_blank">
             <Button
               placeholder="Código"
               bgColor="bg-orange-500 dark:bg-yellow-500"
@@ -52,7 +52,7 @@ function ProyectCard({
               <LuFileCode2 />
             </Button>
           </a>
-          <a href={codeLink} target="_blank">
+          <a href={liveLink} target="_blank">
             <Button
               placeholder="Live"
             >

@@ -1,6 +1,14 @@
 import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiHtml5, SiNextdotjs, SiTailwindcss, SiTypescript } from "react-icons/si";
+import {
+  SiHtml5,
+  SiNextdotjs,
+  SiReactrouter,
+  SiRedux,
+  SiSass,
+  SiTailwindcss,
+  SiTypescript,
+} from "react-icons/si";
 
 export function ReactIcon() {
   return (
@@ -46,6 +54,30 @@ export function HTMLIcon() {
   return (
     <div className="text-orange-500">
       <SiHtml5 size="30" />
+    </div>
+  );
+}
+
+export function ReactRouterIcon() {
+  return (
+    <div className="text-[#b4464f]">
+      <SiReactrouter size="30" />
+    </div>
+  );
+}
+
+export function SassIcon() {
+  return (
+    <div className="text-pink-400">
+      <SiSass size="30" />
+    </div>
+  );
+}
+
+export function ReduxIcon() {
+  return (
+    <div className="text-[#764abc]">
+      <SiRedux size="30" />
     </div>
   );
 }
