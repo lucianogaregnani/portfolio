@@ -35,7 +35,7 @@ function ProyectCard({
         <p className="text-gray-700 dark:text-slate-100 text-xl font-light">
           {content}
         </p>
-        <div className="text-sky-400 flex gap-2">
+        <div className="text-sky-400 flex gap-2 items-center">
           {technologies.map((TechnologieIcon, index) => (
             <div key={index}>
                 {TechnologieIcon}

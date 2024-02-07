@@ -1,11 +1,15 @@
 import ProyectCard from "./components/ProyectCard";
 import gifFinderLogo from "./assets/gif.png";
 import magikIA from "./assets/magikia.png";
-import quizabes from "./assets/quizabes.png"
+import quizabes from "./assets/quizabes.png";
+import promptland from "./assets/promptland.png";
 
 import {
   HTMLIcon,
   JSIcon,
+  MongoDBIcon,
+  NextAuthIcon,
+  NextJSIcon,
   ReactIcon,
   ReactRouterIcon,
   ReduxIcon,
@@ -16,13 +20,34 @@ import {
 
 const proyects = [
   {
+    title: "Promptland",
+    content:
+      "En Promptland, tendrás la oportunidad de compartir tus sugerencias, permitiendo a otros usuarios utilizarlas para mejorar la comprensión de las inteligencias artificiales sobre tus necesidades.",
+    image: promptland,
+    technologies: [
+      <NextJSIcon />,
+      <NextAuthIcon />,
+      <TypeScriptIcon />,
+      <MongoDBIcon />,
+      <TailwindIcon />,
+    ],
+    liveLink: "https://promptland-alpha.vercel.app",
+    codeLink: "https://github.com/lucianogaregnani/promptland.git",
+  },
+  {
     title: "Quizabes",
     content:
       "En Quizabes vas a poder aprender de una forma divertida! Elige la temática que más te guste y trata de mejorar tu puntuación!",
     image: quizabes,
-    technologies: [<ReactIcon />,  <ReduxIcon />, <ReactRouterIcon />, <TypeScriptIcon />, <SassIcon />],
+    technologies: [
+      <ReactIcon />,
+      <ReduxIcon />,
+      <ReactRouterIcon />,
+      <TypeScriptIcon />,
+      <SassIcon />,
+    ],
     liveLink: "https://quizabes.vercel.app",
-    codeLink: "https://github.com/lucianogaregnani/quizabes.git"
+    codeLink: "https://github.com/lucianogaregnani/quizabes.git",
   },
   {
     title: "Gif finder",

@@ -2,6 +2,7 @@ import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import {
   SiHtml5,
+  SiMongodb,
   SiNextdotjs,
   SiReactrouter,
   SiRedux,
@@ -9,6 +10,8 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
+
+import nextAuth from "../components/proyects/assets/next-auth.png"
 
 export function ReactIcon() {
   return (
@@ -44,8 +47,24 @@ export function TypeScriptIcon() {
 
 export function NextJSIcon() {
   return (
-    <div className="text-yellow-300">
+    <div className="text-black">
       <SiNextdotjs size="30" />
+    </div>
+  );
+}
+
+export function MongoDBIcon() {
+  return (
+    <div className="text-green-500">
+      <SiMongodb size="30" />
+    </div>
+  );
+}
+
+export function NextAuthIcon() {
+  return (
+    <div className="text-black">
+      <img src={nextAuth} alt="next auth logo" className="w-[28px] h-[30px]"/>
     </div>
   );
 }
