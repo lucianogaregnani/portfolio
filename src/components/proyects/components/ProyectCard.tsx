@@ -21,8 +21,8 @@ function ProyectCard({
 }: ProyectCardProps) {
   return (
     <article className="flex flex-col md:flex-row justify-center items-center gap-3 group md:px-5">
-      <a href={liveLink} target="_blank">
-        <div className="rounded-xl overflow-hidden bg-proyect-card w-[30rem]">
+      <a href={liveLink} target="_blank" className="p-3 md:p-0">
+        <div className="rounded-xl overflow-hidden bg-proyect-card  md:w-[30rem]">
           <img
             src={image}
             alt="Proyect image"
