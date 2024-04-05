@@ -22,11 +22,11 @@ function ProyectCard({
   return (
     <article className="flex flex-col md:flex-row justify-center items-center gap-3 group md:px-5">
       <a href={liveLink} target="_blank">
-        <div className="rounded-xl overflow-hidden bg-proyect-card h-[14rem] w-[22rem]">
+        <div className="rounded-xl overflow-hidden bg-proyect-card w-[30rem]">
           <img
             src={image}
             alt="Proyect image"
-            className="h-full w-full rounded-xl translate-x-11 translate-y-11 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-700"
+            className="rounded-xl translate-x-11 translate-y-11 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-700"
           />
         </div>
       </a>
@@ -37,9 +37,7 @@ function ProyectCard({
         </p>
         <div className="text-sky-400 flex gap-2 items-center">
           {technologies.map((TechnologieIcon, index) => (
-            <div key={index}>
-                {TechnologieIcon}
-            </div>
+            <div key={index}>{TechnologieIcon}</div>
           ))}
         </div>
         <div className="flex gap-4">
@@ -53,9 +51,7 @@ function ProyectCard({
             </Button>
           </a>
           <a href={liveLink} target="_blank">
-            <Button
-              placeholder="Live"
-            >
+            <Button placeholder="Live">
               <MdLiveTv />
             </Button>
           </a>

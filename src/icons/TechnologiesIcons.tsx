@@ -1,7 +1,9 @@
 import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import {
+  SiExpress,
   SiHtml5,
+  SiJsonwebtokens,
   SiMongodb,
   SiNextdotjs,
   SiReactrouter,
@@ -11,7 +13,7 @@ import {
   SiTypescript,
 } from "react-icons/si";
 
-import nextAuth from "../components/proyects/assets/next-auth.png"
+import nextAuth from "../components/proyects/assets/next-auth.png";
 
 export function ReactIcon() {
   return (
@@ -64,7 +66,7 @@ export function MongoDBIcon() {
 export function NextAuthIcon() {
   return (
     <div className="text-black">
-      <img src={nextAuth} alt="next auth logo" className="w-[28px] h-[30px]"/>
+      <img src={nextAuth} alt="next auth logo" className="w-[28px] h-[30px]" />
     </div>
   );
 }
@@ -100,3 +102,22 @@ export function ReduxIcon() {
     </div>
   );
 }
+
+export function ExpressIcon() {
+  return (
+    <div className="text-slate-500">
+      <SiExpress size="30" />
+    </div>
+  );
+}
+
+export function JWTIcon() {
+  return (
+    <div className="text-red-500 flex gap-1 items-center">
+      <SiJsonwebtokens size="30" />
+      JWT
+    </div>
+  );
+}
+
+

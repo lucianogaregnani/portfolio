@@ -3,10 +3,13 @@ import gifFinderLogo from "./assets/gif.png";
 import magikIA from "./assets/magikia.png";
 import quizabes from "./assets/quizabes.png";
 import promptland from "./assets/promptland.png";
+import shortUrl from "./assets/shorturl.png";
 
 import {
+  ExpressIcon,
   HTMLIcon,
   JSIcon,
+  JWTIcon,
   MongoDBIcon,
   NextAuthIcon,
   NextJSIcon,
@@ -19,6 +22,23 @@ import {
 } from "../../icons/TechnologiesIcons";
 
 const proyects = [
+  {
+    title: "Short URL",
+    content:
+      "Con Short URL vas a poder tener tus URLS mucho más concisas y bonitas!",
+    image: shortUrl,
+    technologies: [
+      <ReactIcon />,
+      <TypeScriptIcon />,
+      <ReactRouterIcon />,
+      <TailwindIcon />,
+      <ExpressIcon />,
+      <JWTIcon />,
+      <MongoDBIcon />,
+    ],
+    liveLink: "https://shorturl-gold.vercel.app/",
+    codeLink: "https://github.com/lucianogaregnani/shortUrl",
+  },
   {
     title: "Promptland",
     content:
