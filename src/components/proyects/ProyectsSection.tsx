@@ -4,9 +4,11 @@ import magikIA from "./assets/magikia.png";
 import quizabes from "./assets/quizabes.png";
 import promptland from "./assets/promptland.png";
 import shortUrl from "./assets/shorturl.png";
+import myLinks from "./assets/mylinks.png";
 
 import {
   ExpressIcon,
+  FireBaseIcon,
   HTMLIcon,
   JSIcon,
   JWTIcon,
@@ -22,6 +24,22 @@ import {
 } from "../../icons/TechnologiesIcons";
 
 const proyects = [
+  {
+    title: "MyLinks",
+    content:
+      "MyLinks es un clon de LinkTree, vas a poder agregar los links de tus redes sociales para compartirlas, configurar el estilo y mucho más!",
+    image: myLinks,
+    technologies: [
+      <ReactIcon />,
+      <ReduxIcon />,
+      <ReactRouterIcon />,
+      <TypeScriptIcon />,
+      <FireBaseIcon />,
+      <TailwindIcon />,
+    ],
+    liveLink: "https://mylinks-rho.vercel.app/",
+    codeLink: "https://github.com/lucianogaregnani/mylinks.git",
+  },
   {
     title: "Short URL",
     content:

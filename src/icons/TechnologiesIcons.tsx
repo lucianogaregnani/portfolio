@@ -2,6 +2,7 @@ import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import {
   SiExpress,
+  SiFirebase,
   SiHtml5,
   SiJsonwebtokens,
   SiMongodb,
@@ -120,4 +121,10 @@ export function JWTIcon() {
   );
 }
 
-
+export function FireBaseIcon() {
+  return (
+    <div className="text-yellow-400 flex gap-1 items-center">
+      <SiFirebase size="30" />
+    </div>
+  );
+}
